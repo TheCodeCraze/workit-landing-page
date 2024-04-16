@@ -51,6 +51,7 @@
   font-weight: 700;
   color: var(--dark-purple);
   line-height: 32px;
+  letter-spacing: -0.18px;
   border: 1px solid var(--eucaplyptus);
   outline: none;
   cursor: pointer;

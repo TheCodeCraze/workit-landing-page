@@ -3,6 +3,24 @@ import styles from "../styles/Footer.module.css";
 export const Footer = () => {
   return (
     <footer className={styles.container}>
+      <div className={styles.info}>
+        <img src="/image-founder.webp" alt="Founder" className={styles.image} />
+        <div className={styles.cta}>
+          <img
+            src="/bg-pattern-3.svg"
+            alt="Background pattern"
+            className={styles.image}
+          />
+          <h2 className={styles.title}>Be the first to test</h2>
+          <p className={styles.description}>
+            Hi, I&apos;m Louis Graham, the founder of the company. Book a demo
+            call with me to become a beta tester for our app and kickstart your
+            company. Apply for access below and I’ll be in touch to schedule a
+            call.
+          </p>
+          <button className={styles.button}>Apply for access</button>
+        </div>
+      </div>
       <div className={styles.connect}>
         <img src="/logo-dark.svg" alt="Home" className={styles.logo} />
         <div className={styles.icons}>
@@ -44,16 +62,3 @@ export const Footer = () => {
     </footer>
   );
 };
-
-{
-  /* 
-
-
-Be the first to test
-
-Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
-beta tester for our app and kickstart your company. Apply for access below and I’ll be 
-in touch to schedule a call.
-
-Apply for access */
-}
