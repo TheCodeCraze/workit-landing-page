@@ -5,9 +5,9 @@
   background-color: var(--ghost-white);
   color: var(--dark-purple);
   clip-path: circle(250% at center -193%);
-  position: relative;
+  position: absolute;
   z-index: -1;
-  top: -225px;
+  top: 504px;
 }
 
 .features {
