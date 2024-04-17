@@ -4,7 +4,7 @@
   padding-top: 481px;
   background-color: var(--ghost-white);
   color: var(--dark-purple);
-  clip-path: circle(250% at center -193%);
+  clip-path: circle(2805px at center -1845px);
   position: absolute;
   z-index: -1;
   top: 504px;
@@ -60,6 +60,7 @@
   .container {
     height: 920.73px;
     padding: 341px 98px 98px;
+    clip-path: circle(2805px at center -1890px);
   }
 
   .features {
@@ -95,5 +96,11 @@
     font-size: 16px;
     line-height: 28px;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    top: 404px;
   }
 }

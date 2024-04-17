@@ -4,7 +4,7 @@
   background: var(--white);
   position: absolute;
   z-index: -2;
-  top: 220%;
+  top: 1330px;
   padding-top: 250px;
   display: flex;
   flex-direction: column;
@@ -104,8 +104,8 @@
 
 @media screen and (max-width: 1170px) {
   .container {
-    padding-left: 40px;
-    padding-right: 40px;
+    height: 1090px;
+    top: 1275px;
     gap: 80px;
   }
 
@@ -147,5 +147,11 @@
     font-size: 16px;
     line-height: 32px;
     letter-spacing: -0.16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    top: 1175px;
   }
 }
