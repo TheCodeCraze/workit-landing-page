@@ -104,3 +104,36 @@
     top: 395px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .container {
+    height: 1120.71px;
+    padding: 341px 16px 16px;
+    clip-path: circle(2805px at center -1700px);
+  }
+
+  .features {
+    width: 100%;
+  }
+
+  .feature {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .info {
+    align-items: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    height: 1070.71px;
+    padding: 245px 16px 16px;
+    clip-path: circle(2805px at center -1735px);
+  }
+}

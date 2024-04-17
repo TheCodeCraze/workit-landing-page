@@ -91,9 +91,6 @@
 @media screen and (max-width: 1024px) {
   .container {
     height: 540.24px;
-    display: flex;
-    flex-direction: column;
-    gap: 56px;
   }
 
   .container::before {
@@ -104,8 +101,9 @@
   }
 
   .content {
-    width: 550px;
+    width: 500px;
     height: 215px;
+    margin-top: 56px;
   }
 
   .title {
@@ -118,5 +116,33 @@
     height: 55px;
     font-size: 16px;
     letter-spacing: -0.16px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    height: 481.71px;
+  }
+
+  .container::before {
+    background: var(--dark-purple);
+    clip-path: circle(1890px at center -1410px);
+  }
+
+  .content {
+    width: 343px;
+    height: 195px;
+    margin-top: 64px;
+  }
+
+  .title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .image {
+    width: 320px;
+    height: 184px;
+    bottom: -91.29px;
   }
 }

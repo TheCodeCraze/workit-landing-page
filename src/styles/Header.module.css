@@ -40,3 +40,9 @@
     letter-spacing: -0.16px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .container {
+    padding: 32px 16px 0;
+  }
+}
