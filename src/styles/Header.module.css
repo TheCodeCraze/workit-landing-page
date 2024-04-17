@@ -30,19 +30,13 @@
   color: var(--eucaplyptus);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .container {
-    padding: 32px 40px;
+    padding: 32px 40px 0;
   }
 
   .cta {
     font-size: 16px;
     letter-spacing: -0.16px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    padding-bottom: 0;
   }
 }

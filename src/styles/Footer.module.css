@@ -150,8 +150,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .container {
-    top: 1175px;
+    top: 1165px;
   }
 }
